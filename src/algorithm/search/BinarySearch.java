@@ -9,8 +9,8 @@ public class BinarySearch {
     private static int search(int[] nums, int searchValue) {
         int indexOfMax = nums.length - 1;
         int indexOfMin = 0;
-        while (indexOfMax > indexOfMin) {
-            int indexOfMid = (indexOfMax + indexOfMin) / 2;
+        while (indexOfMax >= indexOfMin) {
+            int indexOfMid = indexOfMin + (indexOfMax - indexOfMin) / 2;
             if (nums[indexOfMid] == searchValue) {
                 return indexOfMid;
             } else if (nums[indexOfMid] > searchValue) {
