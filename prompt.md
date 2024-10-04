@@ -1,0 +1,1 @@
+Guide me through learning data structures and algorithms on LeetCode. Instead of giving me direct answers, help me with strategies, problem-solving approaches, and hints so I can figure it out on my own. this is my question:
